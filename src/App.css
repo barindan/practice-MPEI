@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.Wrapper {
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  background-color: lightgreen;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.FirstStyleH1 {
+  color: pink;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.SecondStyleH1 {
+  color: red !important;
+}
+
+.CountClickWrapper {
+  display: inline-flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 3px double pink;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Count {
+  margin-top: 5px;
+  color: brown;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CountIncrementButton {
+  margin-bottom: 5px;
+}
+
+.CountDecrementButton {
+  margin-bottom: 5px;
+}
+
+.IncrementBtn {
+  background-color: greenyellow;
+}
+
+.DecrementBtn {
+  background-color: red;
 }
